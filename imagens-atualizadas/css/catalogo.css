@@ -1,0 +1,341 @@
+header {
+}
+
+    header nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+            margin: 20px;
+        }
+
+            header nav ul li {
+                font-size: 20px;
+            }
+
+.home:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 271px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.home:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.catalogo:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    bottom: 0;
+    left: 390px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.catalogo:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.contato:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    bottom: 0;
+    left: 537px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.contato:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+.cabecario nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    position: absolute;
+}
+
+.menu-header {
+    width: auto;
+    margin: 35px;
+}
+
+    .menu-header li {
+        display: inline-block;
+        padding: 15px;
+    }
+
+        .menu-header li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+
+.home:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 271px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.home:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.catalogo:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    bottom: 0;
+    left: 390px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.catalogo:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.contato:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    bottom: 0;
+    left: 537px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.contato:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+.imagem-header-catalogo {
+    background-image: url("../captainmarvelheader.jpg");
+    background-size: cover;
+    height: 740px;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+}
+
+.imagem-capita {
+    width: 100%;
+    padding-top: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-header-catalogo img {
+    width: 450px;
+    display: block;
+    padding-top: 509px;
+    padding-right: 400px;
+    margin: auto;
+}
+
+.titulo-capita {
+    width: 50%;
+    margin: 10%;
+    align-items: end;
+}
+
+.imagem-catalogo {
+    background-image: url("../captainmarvelheader.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+.linha-pag-catalogo {
+    width: 142px;
+    height: 5px;
+    margin: 15px auto 40px;
+    background-color: #ff7f7f;
+}
+
+header {
+}
+
+    header nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+            margin: 20px;
+        }
+
+            header nav ul li {
+                font-size: 20px;
+            }
+
+.imagen-capita {
+    width: 35%;
+    padding-left: 15%;
+}
+
+.container-catalogo {
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.catalogo-produtos-titulo {
+    text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+    .catalogo article {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 350px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .catalogo p {
+        font-size: 20px;
+    }
+
+    .catalogo img {
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+
+
+.produto {
+    border: 1px solid #808080;
+    border-radius: 40px;
+    padding: 0px 20px 20px 20px !important;
+}
+
+.preco {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.comprar {
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    padding: 0;
+    background: linear-gradient(to top, rgb(255 59 59), rgb(251 142 142));
+    transition: 0.3s ease-in;
+    color: white;
+}
+
+    .comprar:hover {
+        background: linear-gradient(to top, rgb(251 142 142), rgb(255 59 59));
+        transition: 0.3s ease-in;
+    }
+
+
+.titulo-catalogo {
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    color: #525252;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    header nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .menu {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .menu img {
+        padding-bottom: 20px;
+    }
+}
+    

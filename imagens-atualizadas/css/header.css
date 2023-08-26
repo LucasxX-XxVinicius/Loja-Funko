@@ -1,0 +1,278 @@
+header {
+}
+
+    header nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+            margin: 20px;
+        }
+
+            header nav ul li {
+                font-size: 20px;
+            }
+
+.home:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 271px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.home:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.catalogo:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    bottom: 0;
+    left: 390px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.catalogo:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.contato:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    bottom: 0;
+    left: 537px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.contato:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+.cabecario nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    position: absolute;
+}
+
+.menu-header {
+    width: auto;
+    margin: 35px;
+}
+
+    .menu-header li {
+        display: inline-block;
+        padding: 15px;
+    }
+
+        .menu-header li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+.primeiro-banner {
+    background-image: url("../spidermanheader.jpg");
+    background-size: cover;
+    height: 740px;
+    background-position-y: 
+}
+
+.baner-home {
+    position: absolute;
+    width: 330px;
+    margin-top: 300px;
+    left: 80px;
+}
+
+.banner-quemsomos {
+    height: 750px;
+    background-image: url(../thor-header.jpg);
+    background-size: cover;
+}
+
+.baner-sec {
+    width: 100%;
+    position: static;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    color: white;
+}
+
+.texto-quemsomos {
+    position: absolute;
+    color: rgb(255, 250, 250);
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    padding-left: 800px;
+    margin-top: 50px;
+}
+
+.sub-linha-quemsomos {
+    width: 100px;
+    height: 5px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.thor_header {
+    width: 100%;
+}
+
+.catalogo-home {
+    background-image: url(../bonecos.png);
+    background-color: white;
+    height: 740px;
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+    background-position-y: 110px;
+    background-size: 850px;
+}
+
+.sub-linha-catalogo {
+    width: 85px;
+    height: 5px;
+    margin: 20px auto;
+    background-color: red;
+}
+
+.titulo-catalogo {
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.texto-catalogo {
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+    text-align: inherit;
+    padding-left: 860px;
+    margin-top: 130px;
+}
+
+.botao-catalogo {
+    margin: 80px 10px 0px 860px;
+    display: block;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to top, rgb(255 59 59), rgb(251 142 142));
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration-line: inherit;
+}
+
+    .botao-catalogo:hover {
+        background: linear-gradient(to top, rgb(251 142 142), rgb(255 59 59));
+        transition: 2s ease;
+    }
+
+    .texto-contato{
+    font-size: 19px;
+    font-weight: 600;
+    color: #5a5959;
+}
+.menu {
+    width: auto;
+    margin: 35px;
+}
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu-ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 60px;
+    gap: 40px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    header nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .menu {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .menu img {
+        padding-bottom: 20px;
+    }
+}
+
+
+    

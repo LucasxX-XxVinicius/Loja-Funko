@@ -1,0 +1,256 @@
+header {
+}
+
+    header nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        header nav ul {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+            margin: 20px;
+        }
+
+            header nav ul li {
+                font-size: 20px;
+            }
+
+.home:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 271px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.home:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.catalogo:before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    bottom: 0;
+    left: 390px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.catalogo:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.contato:before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    bottom: 0;
+    left: 537px;
+    top: 100px;
+    background-color: #ff6060;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.contato:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+.cabecario nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    position: absolute;
+}
+
+.menu-header {
+    width: auto;
+    margin: 35px;
+}
+
+    .menu-header li {
+        display: inline-block;
+        padding: 15px;
+    }
+
+        .menu-header li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 20px;
+}
+
+header nav ul li {
+    font-size: 20px;
+}
+
+.titulo-contato {
+    background-image: url("../contatoheader.jpg");
+    height: 840px;
+    background-image: cover;
+}
+
+.titulo-contato img {
+    margin: auto;
+    display: block;
+    width: 420px;
+    padding-top: 460px;
+}
+
+.contato{
+    
+    text-align: center;
+}
+
+.contato h1 {
+    margin: 0;
+    padding-top: 75px;
+    color: #4a4a4a;
+}
+
+.linha-pag-contato{
+    width: 340px;
+    height: 5px;
+    margin: 20px auto;
+    background-color: #ff4c4c;
+}
+
+
+.inputs-contato{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ gap: 10px;
+}
+
+
+.input-name {
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+}
+
+.input-sobrenome {
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+}
+
+.input-email {
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+}
+
+.input-tel {
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+}
+
+.assunto {
+    top: 1023px;
+    border-radius: 7px;
+    border: 2px solid #cacaca;
+    
+    
+    width: 260px;
+    height: 200px;
+    left: 742px;
+}
+
+.botao-enviar {
+    border-radius: 10px;
+    border: none;
+    width: 430px;
+    height: 50px;
+    display: block;
+    margin: 30px auto;
+    color: white;
+    background: linear-gradient(to top, rgb(255 59 59), rgb(251 142 142));
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.botao-enviar:hover{
+    background: linear-gradient(to top, rgb(251 142 142), rgb(255 59 59));
+    transition: 0.3s ease-out;
+}
+.texto-contato{
+  justify-content: center;
+}
+.conrtaine{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    header nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .menu {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .menu img {
+        padding-bottom: 20px;
+    }
+}
+    
